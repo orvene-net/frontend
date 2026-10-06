@@ -32,7 +32,7 @@ export function ProductPage() {
             <h1 id="product-title">Make every insight<br /><em>traceable.</em></h1>
             <p>Research moves faster when the question, the evidence, and the people behind a finding stay connected. Axiom gives your team one thoughtful space to discover, evaluate, and move ideas forward.</p>
             <div className="product-hero-actions">
-              <Button href={productUrl} light>Open Axiom V2.0</Button>
+              <Button href={productUrl} light target="_blank">Open Axiom V2.0</Button>
               <a className="text-link light-text" href="#product-workflow">Explore how it works <ArrowRight size={15} /></a>
             </div>
             <div className="product-hero-proof"><span>ONE CONNECTED WORKSPACE</span><span>FROM QUESTION TO FINDING</span></div>
@@ -86,7 +86,7 @@ export function ProductPage() {
 
       <section className="axiom-technology section-dark"><div className="container axiom-tech-grid"><div><Eyebrow light>06 / THE AI LAYER</Eyebrow><h2>Intelligence that<br /><em>stays grounded.</em></h2><p>The selected NVIDIA AI stack is intended to support Axiom's next layer of discovery, synthesis, and evidence mapping. The goal is simple: help researchers reach relevant material faster while keeping people close to the sources and decisions.</p></div><div className="axiom-tech-list"><div><span>01</span><strong>NeMo Retriever</strong><p>Semantic retrieval and reranking with direct source citations.</p></div><div><span>02</span><strong>NeMo Framework</strong><p>Fine-tuning on specialist literature for source-aware synthesis.</p></div><div><span>03</span><strong>NVIDIA NIM</strong><p>Optimized language and embedding services for responsive team queries.</p></div><div><span>04</span><strong>RAPIDS · cuGraph · cuDF</strong><p>cuGraph maps relationships; cuDF prepares multi-source research records.</p></div></div></div></section>
 
-      <section className="axiom-end section-paper"><div className="container"><div className="axiom-end-mark"><Sparkles size={24} strokeWidth={1.3} /></div><Eyebrow>ORVENE AXIOM V2.0</Eyebrow><h2>Give the next big question<br />a place to <em>become clear.</em></h2><p>Bring your research, sources, and findings into a workspace built to keep them connected.</p><Button href={productUrl}>Open Axiom V2.0</Button></div></section>
+      <section className="axiom-end section-paper"><div className="container"><div className="axiom-end-mark"><Sparkles size={24} strokeWidth={1.3} /></div><Eyebrow>ORVENE AXIOM V2.0</Eyebrow><h2>Give the next big question<br />a place to <em>become clear.</em></h2><p>Bring your research, sources, and findings into a workspace built to keep them connected.</p><Button href={productUrl} target="_blank">Open Axiom V2.0</Button></div></section>
     </main>
     <Footer />
   </>;
