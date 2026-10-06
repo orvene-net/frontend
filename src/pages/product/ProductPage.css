@@ -1,0 +1,151 @@
+.product-page .product-hero { padding: 166px 0 112px; overflow: hidden; }
+.product-page .product-hero-grid { grid-template-columns: 1fr .94fr; gap: 8%; }
+.product-page .product-hero h1 { font-size: clamp(60px, 6.8vw, 100px); }
+.product-page .product-hero h1 em { color: var(--mint); }
+.product-page .product-hero-copy > p { max-width: 520px; }
+.product-hero-actions { display: flex; align-items: center; gap: 27px; flex-wrap: wrap; }
+.product-hero-proof { display: flex; gap: 28px; margin-top: 64px; padding-top: 20px; border-top: 1px solid rgba(244,244,237,.18); color: #9db8aa; font: 9px 'DM Mono',monospace; letter-spacing: .1em; }
+.product-hero-visual { background: #e6ece6; color: var(--teal); box-shadow: 18px 18px 0 #0b514b; min-height: 475px; border: 1px solid rgba(255,255,255,.3); }
+.axiom-visual-top, .axiom-visual-bottom { display: flex; align-items: center; justify-content: space-between; padding: 18px 22px; font: 9px 'DM Mono',monospace; letter-spacing: .07em; }
+.axiom-visual-top { color: #55776a; border-bottom: 1px solid #c9d9d0; }
+.axiom-visual-top > span:first-child { display: inline-flex; align-items: center; gap: 8px; }
+.axiom-visual-top .status-dot { background: #64a57e; }
+.axiom-visual-question { padding: 45px 30px 37px; border-bottom: 1px solid #c9d9d0; }
+.axiom-visual-question small, .axiom-registry-title small { display: block; color: #6b967e; font: 9px 'DM Mono',monospace; letter-spacing: .09em; margin-bottom: 15px; }
+.axiom-visual-question strong { display: block; font: 36px/1.04 'Instrument Serif',serif; letter-spacing: -.02em; }
+.axiom-visual-question > span { display: block; margin-top: 14px; font-size: 11px; color: #779086; }
+.axiom-visual-path { display: flex; align-items: center; padding: 34px 24px; }
+.axiom-visual-path > div { flex: 1; min-width: 0; display: flex; align-items: flex-start; gap: 8px; font-size: 10px; font-weight: 600; }
+.axiom-visual-path svg { flex: none; color: #4f8e72; }
+.axiom-visual-path small { display: block; color: #81998c; font-size: 8px; font-weight: 400; margin-top: 4px; }
+.axiom-visual-path i { width: 15px; flex: none; border-top: 1px solid #9cbcad; margin: 10px 9px 0 0; }
+.axiom-visual-bottom { color: #91a69a; padding-top: 0; }
+.axiom-intro, .axiom-registry, .axiom-capabilities, .axiom-discovery, .axiom-evidence, .axiom-operations, .axiom-technology { padding: 120px 0; }
+.axiom-intro-heading { display: grid; grid-template-columns: 1fr 1fr; align-items: end; column-gap: 12%; }
+.axiom-intro-heading .eyebrow { grid-column: 1 / -1; }
+.axiom-intro-heading h2 { margin-bottom: 0; }
+.axiom-intro-heading > p { color: #66786e; line-height: 1.7; font-size: 15px; max-width: 390px; margin-bottom: 4px; }
+.axiom-intro h2 em, .axiom-registry h2 em, .axiom-capabilities h2 em, .axiom-evidence h2 em, .axiom-operations h2 em, .axiom-end h2 em { color: #438775; }
+.axiom-steps { display: grid; grid-template-columns: repeat(4,1fr); margin-top: 68px; border-top: 1px solid var(--line); }
+.axiom-steps article { padding: 28px 20px 0 0; border-right: 1px solid var(--line); min-height: 170px; }
+.axiom-steps article + article { padding-left: 24px; }
+.axiom-steps article:last-child { border-right: 0; }
+.axiom-steps article > span, .axiom-capability-top span { color: #4e8c72; font: 10px 'DM Mono',monospace; }
+.axiom-steps h3 { font-size: 18px; font-weight: 500; letter-spacing: -.03em; margin: 35px 0 10px; }
+.axiom-steps p { color: #697d72; font-size: 12px; line-height: 1.6; max-width: 200px; }
+.axiom-feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10%; align-items: center; }
+.axiom-feature-copy > p { color: #5c7167; line-height: 1.75; font-size: 15px; max-width: 480px; }
+.axiom-feature-copy ul { list-style: none; padding: 20px 0 0; margin: 0; }
+.axiom-feature-copy li { border-top: 1px solid var(--line); padding: 13px 0 13px 24px; color: #456256; font-size: 12px; position: relative; }
+.axiom-feature-copy li::before { content: ''; position: absolute; top: 19px; left: 0; width: 7px; height: 7px; border: 1px solid #65a487; border-radius: 50%; }
+.axiom-registry-panel, .axiom-evidence-visual { background: #edf1ec; box-shadow: 18px 18px 0 #c9dbcf; border: 1px solid #cbdad0; }
+.axiom-panel-head { display: flex; justify-content: space-between; gap: 15px; padding: 19px 22px; border-bottom: 1px solid #ccdad0; color: #668276; font: 9px 'DM Mono',monospace; letter-spacing: .06em; }
+.axiom-registry-title { padding: 50px 32px; }
+.axiom-registry-title strong { display: block; font: 36px/1.03 'Instrument Serif',serif; color: var(--teal); }
+.axiom-registry-title p { margin: 20px 0 0; color: #748c7e; font-size: 11px; line-height: 1.6; max-width: 320px; }
+.axiom-registry-rows { padding: 0 22px 22px; }
+.axiom-registry-rows > div { display: grid; grid-template-columns: 38px 1fr auto; align-items: center; border-top: 1px solid #d1ddd4; min-height: 47px; }
+.axiom-registry-rows span, .axiom-registry-rows small { color: #7a9c88; font: 9px 'DM Mono',monospace; }
+.axiom-registry-rows strong { font-size: 11px; font-weight: 500; }
+.axiom-capabilities .section-intro, .axiom-operations .section-intro { margin-bottom: 52px; }
+.axiom-capabilities .section-intro > p, .axiom-operations .section-intro > p { max-width: 390px; line-height: 1.7; }
+.axiom-capability-grid { display: grid; grid-template-columns: repeat(4,1fr); border: 1px solid var(--line); }
+.axiom-capability-grid article { padding: 24px; min-height: 348px; border-right: 1px solid var(--line); display: flex; flex-direction: column; }
+.axiom-capability-grid article:last-child { border: 0; }
+.axiom-capability-top { display: flex; align-items: center; justify-content: space-between; color: #438775; margin-bottom: 64px; }
+.axiom-capability-grid h3 { font-size: 22px; font-weight: 500; letter-spacing: -.04em; margin-bottom: 14px; }
+.axiom-capability-grid p { color: #65776c; font-size: 12px; line-height: 1.65; }
+.axiom-capability-grid article > div:last-child { color: #397b63; font-size: 11px; line-height: 1.5; border-top: 1px solid var(--line); padding-top: 15px; margin-top: auto; }
+.axiom-discovery .axiom-feature-copy > p, .axiom-technology p { color: #b4cabe; }
+.axiom-discovery h2 em, .axiom-technology h2 em { color: var(--mint); }
+.axiom-discovery .text-link { margin-top: 14px; }
+.axiom-search-panel { background: #e7ede7; color: var(--teal); padding: 22px; box-shadow: 18px 18px 0 #0d554e; }
+.axiom-search-input { display: flex; align-items: center; gap: 10px; background: #f4f5f0; border: 1px solid #c7d8cc; padding: 14px; color: #547668; font-size: 11px; }
+.axiom-search-label { font: 9px 'DM Mono',monospace; color: #759484; margin: 27px 0 11px; letter-spacing: .1em; }
+.axiom-search-result { background: #f2f4ef; border: 1px solid #d2ded4; padding: 18px; margin-top: 8px; }
+.axiom-search-result > span { color: #6a9c7d; font: 9px 'DM Mono',monospace; }
+.axiom-search-result strong { display: block; font: 25px/1.1 'Instrument Serif',serif; margin: 10px 0; }
+.axiom-search-result p { color: #738a7d; font-size: 11px; line-height: 1.55; margin-bottom: 15px; }
+.axiom-search-result small { display: inline-flex; align-items: center; gap: 5px; color: #438775; font-size: 10px; }
+.axiom-panel-caption { color: #83a091; font: 9px 'DM Mono',monospace; padding-top: 16px; }
+.axiom-evidence .axiom-feature-grid { grid-template-columns: 1.05fr .95fr; }
+.axiom-graph { height: 340px; position: relative; background: radial-gradient(circle at 52% 50%, rgba(178,211,188,.25), transparent 45%); }
+.axiom-graph svg { position: absolute; inset: 0; width: 100%; height: 100%; fill: none; stroke: #81ad94; stroke-width: 1.5; }
+.axiom-graph svg circle { fill: #4d9270; stroke: #edf1ec; stroke-width: 2; }
+.axiom-graph-node { position: absolute; z-index: 1; width: 39%; min-height: 84px; padding: 11px 12px; background: #f5f7f2; border: 1px solid #bcd2c2; box-shadow: 3px 4px 0 rgba(65,115,82,.08); }
+.axiom-graph-node > span { display: flex; align-items: center; gap: 6px; color: #568b6b; font: 9px 'DM Mono',monospace; letter-spacing: .06em; }
+.axiom-graph-node strong { display: block; color: var(--teal); font-size: 12px; line-height: 1.2; font-weight: 600; margin: 9px 0 3px; }
+.axiom-graph-node small { display: block; color: #789186; font-size: 9px; }
+.node-source, .node-note, .node-project { left: 5%; }
+.node-source { top: 6%; }.node-note { top: 38%; }.node-project { top: 70%; }
+.node-finding { left: 55.6%; top: 32%; width: 40%; min-height: 122px; padding: 16px; background: var(--teal); border-color: var(--teal); box-shadow: 5px 6px 0 #b7d0bd; }
+.node-finding > span, .node-finding strong { color: #eef4ec; }
+.node-finding > span { color: var(--mint); }
+.node-finding strong { font: 22px/1.05 'Instrument Serif',serif; margin: 16px 0 10px; }
+.node-finding small { color: #a6c6b4; }
+.axiom-graph-foot { border-top: 1px solid #d1ded4; padding: 17px 22px; color: #628573; font-size: 11px; line-height: 1.5; }
+.axiom-operations .workspace-shell { max-width: 100%; }
+.axiom-operations-note { display: flex; justify-content: center; gap: 45px; margin-top: 28px; color: #466d59; font-size: 11px; }
+.axiom-operations-note span { display: inline-flex; align-items: center; gap: 7px; }
+.axiom-tech-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 12%; }
+.axiom-technology p { line-height: 1.7; font-size: 14px; max-width: 420px; }
+.axiom-tech-list { border-top: 1px solid rgba(255,255,255,.22); }
+.axiom-tech-list > div { display: grid; grid-template-columns: 35px 1fr; gap: 8px; padding: 21px 0; border-bottom: 1px solid rgba(255,255,255,.22); }
+.axiom-tech-list span { color: var(--mint); font: 10px 'DM Mono',monospace; }
+.axiom-tech-list strong { font-size: 15px; font-weight: 500; }
+.axiom-tech-list p { grid-column: 2; font-size: 11px; margin: 0; color: #9eb9aa; }
+.axiom-end { text-align: center; padding: 120px 0 135px; }
+.axiom-end-mark { display: grid; place-items: center; width: 55px; height: 55px; border: 1px solid var(--line); border-radius: 50%; color: #438775; margin: 0 auto 28px; }
+.axiom-end .eyebrow { justify-content: center; }
+.axiom-end h2 { margin: 0 auto 22px; }
+.axiom-end p:not(.eyebrow) { color: #63776c; font-size: 14px; margin-bottom: 30px; }
+@media (max-width: 900px) {
+  .product-page .product-hero-grid, .axiom-feature-grid, .axiom-evidence .axiom-feature-grid, .axiom-tech-grid { grid-template-columns: 1fr; gap: 55px; }
+  .product-page .product-hero-visual { max-width: 620px; }
+  .axiom-capability-grid { grid-template-columns: 1fr 1fr; }
+  .axiom-capability-grid article:nth-child(2) { border-right: 0; }
+  .axiom-capability-grid article:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .axiom-steps { grid-template-columns: 1fr 1fr; }
+  .axiom-steps article:nth-child(2) { border-right: 0; }
+  .axiom-steps article:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .axiom-evidence .axiom-evidence-visual { order: 2; }
+}
+@media (max-width: 620px) {
+  .product-page .product-hero { padding: 118px 0 80px; }
+  .product-page .product-hero h1 { font-size: 59px; }
+  .product-hero-actions { align-items: flex-start; flex-direction: column; gap: 22px; }
+  .product-hero-proof { flex-wrap: wrap; gap: 12px 25px; margin-top: 40px; }
+  .product-hero-visual { min-height: 0; box-shadow: 10px 10px 0 #0b514b; }
+  .axiom-visual-question { padding: 30px 20px; }
+  .axiom-visual-question strong { font-size: 29px; }
+  .axiom-visual-path { padding: 24px 16px; }
+  .axiom-visual-path > div { display: block; font-size: 9px; }
+  .axiom-visual-path > div svg { margin-bottom: 7px; }
+  .axiom-visual-path i { width: 9px; margin: 10px 5px 0 0; }
+  .axiom-intro, .axiom-registry, .axiom-capabilities, .axiom-discovery, .axiom-evidence, .axiom-operations, .axiom-technology { padding: 84px 0; }
+  .axiom-intro-heading { display: block; }
+  .axiom-intro-heading h2 { margin-bottom: 22px; }
+  .axiom-steps { margin-top: 38px; }
+  .axiom-steps article, .axiom-steps article + article { padding: 20px 12px 8px; min-height: 175px; }
+  .axiom-steps h3 { margin-top: 25px; font-size: 16px; }
+  .axiom-capability-grid { grid-template-columns: 1fr; }
+  .axiom-capability-grid article { min-height: 250px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .axiom-capability-grid article:last-child { border-bottom: 0; }
+  .axiom-capability-top { margin-bottom: 38px; }
+  .axiom-registry-panel, .axiom-evidence-visual, .axiom-search-panel { box-shadow: 10px 10px 0 #c9dbcf; }
+  .axiom-search-panel { box-shadow: 10px 10px 0 #0d554e; }
+  .axiom-registry-title { padding: 32px 20px; }
+  .axiom-registry-title strong { font-size: 30px; }
+  .axiom-registry-rows > div { grid-template-columns: 28px 1fr; }
+  .axiom-registry-rows small { display: none; }
+  .axiom-graph { height: 340px; }
+  .axiom-graph-node { padding: 9px; }
+  .axiom-graph-node > span { font-size: 8px; }
+  .axiom-graph-node strong { font-size: 10px; }
+  .node-finding { padding: 12px; }
+  .node-finding strong { font-size: 19px; }
+  .axiom-operations .workspace-shell { overflow-x: auto; }
+  .axiom-operations .workspace-shell .workspace-body { min-width: 650px; grid-template-columns: 145px 1fr; }
+  .axiom-operations-note { flex-wrap: wrap; gap: 12px 22px; justify-content: flex-start; }
+  .axiom-end { padding: 90px 0; }
+}
