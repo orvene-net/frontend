@@ -1,5 +1,6 @@
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
-import { Footer, Header } from './shell';
+import { Footer } from './components/layout/Footer';
+import { Header } from './components/layout/Header';
 import type { LegalDoc } from './legal';
 
 export function LegalPage({ doc }: { doc: LegalDoc }) {
