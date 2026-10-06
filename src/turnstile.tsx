@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-const SITE_KEY = (import.meta.env.VITE_TURNSTILE_SITE_KEY as string | undefined) ?? '';
+const SITE_KEY = (import.meta.env.VITE_TURNSTILE_SITE_KEY as string | undefined) ?? '0x4AAAAAAFL1jMnl1CwWWO-O';
 const SCRIPT_SRC = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
 
 type TurnstileApi = { render: (target: HTMLElement, options: Record<string, unknown>) => string; reset: (widgetId: string) => void };

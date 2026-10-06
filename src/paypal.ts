@@ -1,4 +1,4 @@
-const CLIENT_ID = (import.meta.env.VITE_PAYPAL_CLIENT_ID as string | undefined) ?? '';
+const CLIENT_ID = (import.meta.env.VITE_PAYPAL_CLIENT_ID as string | undefined) ?? 'BAAA8yN0lQTc7Tf_L30XglOAmIWkf7RePDVCY5N3qu38NB2yIoaL2M-wRIP5tAjnv8iiOR_ODdeolOZr50';
 const CURRENCY = (import.meta.env.VITE_PAYPAL_CURRENCY as string | undefined) ?? 'USD';
 const SDK_URL = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(CLIENT_ID)}&currency=${CURRENCY}&intent=capture&disable-funding=credit&components=buttons`;
 
